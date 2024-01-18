@@ -5,4 +5,4 @@ Chạy lệnh này để tải các thư viện và bạn sẽ không cần ch�
 ```
 pip install -r requirements.txt --upgrade
 ```
-Sau khi đã chạy xong bạn hãy chạy file run.py.
+Sau khi đã chạy xong bạn đã có thể chạy file run.py để chạy bot.
