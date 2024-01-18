@@ -24,7 +24,7 @@ class Bot(commands.Cog):
       delete_after=5
     )
   
-  @app_commands.command(name="help", description="Xem tốc độ kết nối của bot.")
+  @app_commands.command(name="help", description="Xem hổ trợ của bot.")
   async def help(self, interaction: discord.Interaction):
     interaction.response.send_message(embed=discord.Embed(title=setting.HELP_MESSAGE_CONTENT, colour=setting.EMBED_MESSAGE_COLOUR))
 
